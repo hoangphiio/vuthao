@@ -1123,7 +1123,8 @@ a.selected {
       width: auto; }
       @media screen and (max-width: 1160px) {
         .partner-inner-col img {
-          margin-bottom: 20px; } }
+          margin-bottom: 20px;
+          width: 100%; } }
       @media screen and (max-width: 600px) {
         .partner-inner-col img {
           width: 100%; } }

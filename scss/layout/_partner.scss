@@ -12,6 +12,7 @@
         width: auto;
         @include max(1160px){
           margin-bottom: 20px;
+          width: 100%;
         }
         @include max(600px){
           width: 100%;
