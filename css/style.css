@@ -29,7 +29,7 @@ a.blog.header-selected:after {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
-  top: 74px;
+  top: 94px;
   left: 0;
   width: 100%;
   padding-bottom: 20px;
@@ -1135,7 +1135,7 @@ a.selected {
 .blog {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/assets/img/blog-banner.png"); }
+  background-image: url("/assets/img/blog/blog-img1.jpg"); }
   .blog-inner {
     padding-top: 95px; }
     .blog-inner-banner {
