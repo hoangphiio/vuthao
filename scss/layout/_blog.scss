@@ -1,7 +1,7 @@
 .blog {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/assets/img/blog-img1.jpg");
+  background-image: url("/assets/img/blog-img1.png");
   &-inner {
     padding-top: 95px;
     &-banner {
@@ -9,7 +9,7 @@
       h1 {
         font-size: 40px;
         padding-top: 60px;
-      }
+      } 
       p {
         font-size: 26px;
         padding-bottom: 30px;
