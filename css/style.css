@@ -24,18 +24,18 @@ a.blog.header-selected:after {
   cursor: pointer; }
 
 .mega-menu {
+  position: fixed;
   background: #fff;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
-  position: absolute;
   top: 74px;
   left: 0;
   width: 100%;
   padding-bottom: 20px;
   border-top: 1px solid #eaeaea; }
   .mega-menu-blog {
-    width: 39% !important; }
+    width: 42% !important; }
   .mega-menu-item:nth-child(1) {
     padding-right: 50px; }
   .mega-menu-item:nth-child(2) {
@@ -70,10 +70,10 @@ a.blog.header-selected:after {
   .mega-menu-content {
     display: flex;
     justify-content: flex-end;
-    width: 93%;
-    padding-top: 12px; }
-  .mega-menu-content:nth-child(2) {
-    width: 50%; }
+    width: 100%;
+    padding-top: 12px;
+    max-width: 1024px;
+    margin: auto; }
 
 #header-search {
   position: relative;
