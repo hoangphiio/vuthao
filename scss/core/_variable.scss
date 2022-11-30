@@ -1,0 +1,100 @@
+$color-first: #174ae6;
+$color-second: #28b0ff;
+$color-thrid: #ff833b;
+$color-four: #ffc107;
+$color-five: #00c86b;
+
+.hover-darkblue {
+  background-color: $color-first;
+  right: 0;
+}
+.history-hover-darkblue {
+  background-color: $color-first;
+}
+.history-hover-green {
+  background-color: $color-five;
+}
+.history-hover-yellow {
+  background-color: $color-four;
+}
+.history-hover-blue {
+  background-color: $color-second;
+}
+.hover-green {
+  background-color: $color-five;
+}
+.hover-yellow {
+  background-color: $color-four;
+  right: 0;
+}
+.hover-blue {
+  background-color: $color-second;
+  left: 0;
+}
+.hover-purple {
+  background-color: #b19bff;
+  right: 0;
+}
+.border-darkblue h2::before {
+  background: linear-gradient(to right, $color-first, #a5bbff);
+}
+.border-green h2::before {
+  background: linear-gradient(to right, $color-five, #b6ffdd);
+}
+.border-yellow h2::before {
+  background: linear-gradient(to right, $color-four, #fff4d4);
+}
+.border-blue h2::before {
+  background: linear-gradient(to right, $color-second, #dbf2ff);
+}
+.border-purple h2::before {
+  background: linear-gradient(to right, $color-thrid, #ffe5d5);
+}
+.li-darkblue li::before {
+  background-color: $color-first;
+}
+.li-green li::before {
+  background-color: $color-five;
+}
+.li-blue li::before {
+  background-color: $color-second;
+}
+.li-purple li::before {
+  background-color: $color-thrid;
+}
+.time-green h3 {
+  color: $color-five;
+}
+.time-yellow h3 {
+  color: $color-four;
+}
+.time-blue h3 {
+  color: $color-second;
+}
+.border-yellow {
+  border-color: $color-four !important;
+  &::before {
+    border-color: $color-four !important;
+  }
+  &::after {
+    border-color: $color-four !important;
+  }
+}
+.border-blue {
+  border-color: $color-second !important;
+  &::before {
+    border-color: $color-second !important;
+  }
+  &::after {
+    border-color: $color-second !important;
+  }
+}
+.border-transparent {
+  border-color: $color-second !important;
+  &::before {
+    border-color: transparent !important;
+  }
+  &::after {
+    border-color: transparent !important;
+  }
+}

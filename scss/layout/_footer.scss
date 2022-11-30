@@ -1,0 +1,39 @@
+.footer {
+  background-color: #f8f8f8;
+  &-top {
+    @include mid-flex-btw();
+    padding-top: 30px;
+    @include max(500px){
+      flex-direction: column;
+    }
+    &-col:first-child {
+      line-height: 2;
+      & h2 {
+        font-size: 20px;
+        @include max(400px){
+          font-size: 16px;
+        }
+      }
+    }
+    &-col:last-child{
+      justify-content: flex-end;
+    }
+  }
+  &-bottom {
+    &-copyright {
+      @include flex();
+      align-items: center;
+      justify-content: end;
+      @include max(425px){
+        justify-content: center;
+      }
+      & img {
+        max-width: 18px;
+        margin-right: 8px;
+      }
+      & span {
+        font-size: 16px;
+      }
+    }
+  }
+}

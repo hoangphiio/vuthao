@@ -1,0 +1,22 @@
+.partner {
+  &-inner {
+    padding: 100px 0;
+    padding-bottom: 100px;
+    &-col {
+      @include mid-flex-btw();
+      padding-bottom: 30px;
+      @include max(1160px) {
+        flex-direction: column;
+      }
+      & img {
+        width: auto;
+        @include max(1160px){
+          margin-bottom: 20px;
+        }
+        @include max(600px){
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.blog {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/blog-banner.png");
+  &-inner {
+    padding-top: 95px;
+    &-banner {
+      text-align: center;
+      h1 {
+        font-size: 40px;
+        padding-top: 60px;
+      }
+      p {
+        font-size: 26px;
+        padding-bottom: 30px;
+        @include max(500px){
+          font-size: 20px;
+        }
+      }
+      input[type="text"] {
+        border: 1px solid #fff;
+        background-color: rgba(255, 255, 255, 0.6);
+        outline: 0;
+        color: #544837;
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 8px 24px;
+        width: 100%;
+        cursor: pointer;
+      }
+      .ic-search {
+        font-size: 20px;
+        &::before {
+          position: absolute;
+          top: 10px;
+          right: 20px;
+        }
+      }
+    }
+    &-search {
+      padding-bottom: 60px;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      max-width: 750px;
+    }
+  }
+}

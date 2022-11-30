@@ -1,0 +1,32 @@
+// Library
+@import url("../js/library/fontawesome/css/all.css");
+@import url("../js/library/hover/hover.min.css");
+@import url("../js/library/swipper/swipper.css");
+@import url("../js/library/animate/animate.css");
+@import url("../js/library/aos/aos.css");
+
+// Component
+@import "./components/dropdown";
+@import "./components/scroll";
+@import "./components/burgerMenu";
+@import "./components/tablist";
+
+// Core
+@import "./core/font";
+@import "./core/mixin";
+@import "./core/reset";
+@import "./core/variable";
+@import "./core/base";
+@import "./core/animation";
+
+// Layout
+@import "./layout/header";
+@import "./layout/banner";
+@import "./layout/content";
+@import "./layout/customer";
+@import "./layout/partner";
+@import "./layout/blog";
+@import "./layout/tab";
+@import "./layout/information";
+@import "./layout/history";
+@import "./layout/footer";

@@ -1,0 +1,112 @@
+.content {
+  &-inner {
+    @include flex();
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    @include max(1160px) {
+      flex-direction: column;
+    }
+  }
+  &-inner:nth-child(even) {
+    @include max(1160px) {
+      flex-direction: column-reverse;
+    }
+  }
+  &-column {
+    max-width: 550px;
+    @include max(1160px) {
+      width: 100%;
+      max-width: none;
+      padding-bottom: 20px;
+    }
+    &-title {
+      & h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+        position: relative;
+        @include max(400px){
+          font-size: 20px;
+        }
+        &::before {
+          content: "";
+          width: 120px;
+          height: 5px;
+          position: absolute;
+          bottom: 0;
+          @include max(400px){
+            width: 80px;
+          }
+        }
+      }
+    }
+    &-text {
+      & p:first-child {
+        margin: 20px 0 10px 0;
+      }
+    }
+    &-img {
+      position: relative;
+      &:hover .content-hover-overlay {
+        width: 60%;
+      }
+      & img {
+        display: block;
+      }
+    }
+    &-form {
+      @include flex();
+      justify-content: space-between;
+      @include max(1160px) {
+        justify-content: normal;
+      }
+      @include max(430px){
+        flex-direction: column;
+      }
+    }
+    &-right {
+      @include max(1160px) {
+        margin-left: 20px;
+      }
+      @include max(430px){
+        margin-left: 0;
+      }
+    }
+    &-left,
+    &-right {
+      position: relative;
+      padding-left: 17px;
+      & li::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+      }
+      & li {
+        margin: 10px 0;
+      }
+    }
+    &-details a {
+      color: $color-first;
+    }
+  }
+  &-hover-overlay {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0.5;
+    & h3 {
+      position: absolute;
+      color: #fff;
+      font-size: 25px;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

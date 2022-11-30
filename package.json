@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "node-sass": "^7.0.3",
+    "swiper": "^8.4.5"
+  },
+  "scripts": {
+    "scss": "node-sass -w ./scss -o ./css"
+  }
+}

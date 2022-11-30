@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'iconvuthao';
+  src:  url('fonts/iconvuthao.eot?asy5ww');
+  src:  url('fonts/iconvuthao.eot?asy5ww#iefix') format('embedded-opentype'),
+    url('fonts/iconvuthao.ttf?asy5ww') format('truetype'),
+    url('fonts/iconvuthao.woff?asy5ww') format('woff'),
+    url('fonts/iconvuthao.svg?asy5ww#iconvuthao') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconvuthao' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-book:before {
+  content: "\e902";
+}
+.ic-timeline:before {
+  content: "\e903";
+}
+.ic-code:before {
+  content: "\e904";
+}
+.ic-bag:before {
+  content: "\e905";
+}
+.ic-rocket:before {
+  content: "\e906";
+}
+.ic-arrow-down:before {
+  content: "\e901";
+  color: #544837;
+}
+.ic-search:before {
+  content: "\e900";
+  color: #544837;
+}
+

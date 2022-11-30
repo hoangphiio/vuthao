@@ -1,0 +1,76 @@
+.information {
+  border-top: 1px solid #d8d8d8;
+  &-inner {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    @include max(425px) {
+      padding-bottom: 60px;
+    }
+    &-logo {
+      @include mid-flex-btw();
+      padding-bottom: 50px;
+      @include max(600px) {
+        flex-direction: column;
+      }
+    }
+    &-img {
+      & img {
+        max-width: 120px;
+      }
+      @include max(600px) {
+        padding-bottom: 20px;
+      }
+    }
+    &-contact {
+      @include flex();
+      align-items: center;
+      @include max(500px) {
+        padding-bottom: 20px;
+      }
+      & img {
+        max-width: 18px;
+        margin-right: 10px;
+      }
+      & a:nth-child(2) {
+        padding-right: 50px;
+      }
+      .ic-contact,
+      .ic-mail {
+        font-family: "Raleway" !important;
+      }
+      a {
+        @include max(452px) {
+          font-size: 12px;
+        }
+      }
+    }
+    &-content {
+      @include flex();
+      justify-content: space-between;
+      @include max(1024px) {
+        flex-wrap: wrap;
+      }
+    }
+    &-col {
+      & h3 {
+        margin-bottom: 15px;
+      }
+      & p {
+        margin-bottom: 8px;
+      }
+    }
+    &-introduce,
+    &-product {
+      line-height: 2;
+      margin-bottom: 44px;
+    }
+    &-introduce li:hover,
+    &-product li:hover,
+    &-blog li:hover {
+      color: $color-first;
+    }
+    &-blog {
+      line-height: 2;
+    }
+  }
+}

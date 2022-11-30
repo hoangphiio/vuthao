@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./assets/icon/custom.css" />
+  <title>Vuthao Software Solutions</title>
+</head>
+
+<body>
+  <!-- Button Scroll -->
+  <a id="button"></a>
+
+  <header id="header">
+    <div class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="header-menu">
+            <div class="header-box">
+              <div class="header-img">
+                <a href="home.html">
+                  <img src="./assets/img/logo.png" alt="" />
+                </a>
+              </div>
+              <!-- Nav bar -->
+
+              <div class="header-navbar">
+                <ul class="header-navbar-link">
+                  <li class="item">
+                    <a href="home.html"> Trang chủ </a>
+                  </li>
+                  <li class="item">
+                    <a href="gioithieu.html"> Giới thiệu </a>
+                  </li>
+                  <li class="header-dropdown-item item">
+                    <a href="#" class="header-dropdown-icon expand-btn">Sản phẩm</a>
+                    <div class="mega-menu sample">
+                      <div class="mega-menu-content">
+                        <ul class="mega-menu-item">
+                          <li>
+                            <a href="#">DPM - Số hoá quy trình nghiệp vụ</a>
+                          </li>
+                          <li><a href="#">Dsign - Cổng ký số</a></li>
+                          <li>
+                            <a href="#">DCM - Số hoá tài liệu & tri thức</a>
+                          </li>
+                          <li>
+                            <a href="#" class="mega-menu-icon">Eoffice</a>
+                          </li>
+                          <li><a href="#">Quản lý hợp đồng</a></li>
+                        </ul>
+                        <ul class="mega-menu-item">
+                          <li>
+                            <a href="#">Quản lý văn bản đi đến</a>
+                          </li>
+                          <li>
+                            <a href="#">Quản lý văn bản đi đến</a>
+                          </li>
+                          <li><a href="#">Thư viện tài liệu</a></li>
+                          <li><a href="#">Lịch biểu</a></li>
+                          <li><a href="#">Tin nội bộ</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header-dropdown-item item">
+                    <a href="#" class="header-dropdown-icon icon-blog expand-btn selected" >Tin tức</a>
+                    <div class="mega-menu sample">
+                      <div class="mega-menu-content">
+                        <ul class="mega-menu-item mega-menu-blog">
+                          <li><a href="blog.html" class="selected">Blog</a></li>
+                          <li><a href="#">Tin hoạt động</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <a href="#"> Tuyển dụng </a>
+                  </li>
+                </ul>
+                <div class="header-navbar-search">
+                  <a href="#" class="header-navbar-wrapper">
+                    <div class="header-navbar-search-btn">
+                      <i class="ic-search" title="Tìm kiếm"></i>
+                    </div>
+                    <div class="header-navbar-search-form">
+                      <label id="header-search">Nhập từ khóa tìm kiếm</label><br />
+                      <input type="text" class="header-navbar-search-input" />
+                    </div>
+                  </a>
+                </div>
+                <div class="header-navbar-language">
+                  <a href="#">
+                    <img src="./assets/img/language_eng.svg" alt="" />
+                  </a>
+                </div>
+                <div class="header-navbar-contact">
+                  <a href="#" class="hvr-float-shadow"> Liên hệ </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="main">
+    <section id="blog">
+      <div class="blog ">
+        <div class="container">
+          <div class="blog-wrap">
+            <div class="blog-box">
+              <div class="blog-inner" data-aos="zoom-in">
+                <div class="blog-inner-banner">
+                  <h1>Tin tức</h1>
+                  <p>Chia sẻ kinh nghiệm chuyển đổi số hoá</p>
+                  <div class="blog-inner-search">
+                    <input type="text" placeholder="Nhập từ khoá tìm kiếm …" />
+                    <i class="ic-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab">
+      <div class="tab">
+        <div class="container">
+          <div class="tab-wrap">
+            <div class="tab-box">
+              <div class="tab-inner">
+                <div class="tab-inner-tablist">
+                  <button class="tab-inner-tablinks hvr-underline-from-left" onclick="tablistModule(event, 'knowledge')"
+                    id="defaultOpen">
+                    Kiến thức quản trị
+                  </button>
+                  <button class="tab-inner-tablinks hvr-underline-from-left" onclick="tablistModule(event, 'library')">
+                    Thư viện tài nguyên
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tablist">
+      <div class="tablist">
+        <div class="container">
+          <div class="tablist-wrap">
+            <div class="tablist-box">
+              <!-- knowledge  -->
+              <div class="tablist-inner-tabcontent" id="knowledge">
+                <div class="tablist-inner-panel">
+                  <div class="tablist-inner-panel-row">
+                    <div class="tablist-inner-panel-col">
+                      <div class="tablist-inner-panel-swipper">
+                        <div class="swiper">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="swiper-button-next tablist-swiper-next"></div>
+                          <div class="swiper-button-prev tablist-swiper-prev"></div>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-panel-content">
+                        <div class="history-inner-info tablist-inner-panel-info">
+                          <h2>
+                            Cloud CRM là gì và cách thức quản lý khách hàng
+                            hiệu quả
+                          </h2>
+                        </div>
+                        <div class="tablist-inner-panel-time">
+                          <p>Kiến thức quản trị</p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                        <div class="tablist-inner-panel-text">
+                          <p>
+                            Nếu CRM được xem là nền tảng của Sales và
+                            Marketing thì Cloud CRM được đánh giá là giải pháp
+                            phù hợp cho mọi doanh nghiệp, bởi khả năng triển
+                            khai dễ dàng và nhanh chóng. Bạn đang muốn tìm
+                            hiểu về loại giải pháp Cloud CRM này, cũng như
+                            những hiệu quả mà chúng đem lại?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="tablist-inner-panel-row">
+                    <div class="tablist-inner-body hvr-float-shadow animate__animated animate__fadeInRightBig">
+                      <div class="tablist-inner-panel-reading">
+                        <img src="./assets/img/blog-img2.png" alt="" />
+                      </div>
+                      <div class="tablist-inner-panel-content">
+                        <div class="tablist-inner-panel-info">
+                          <p>
+                            Email Marketing là gì? Lợi ích và cách làm Email
+                            marketing hiệu quả
+                          </p>
+                        </div>
+                        <div class="tablist-inner-panel-time small">
+                          <p>Kiến thức quản trị</p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tablist-inner-body hvr-float-shadow animate__animated animate__fadeInRightBig">
+                      <div class="tablist-inner-panel-reading">
+                        <img src="./assets/img/blog-img3.png" alt="" />
+                      </div>
+                      <div class="tablist-inner-panel-content">
+                        <div class="tablist-inner-panel-info">
+                          <p>Ứng dụng AI phát hiện sự cố mạng bất thường</p>
+                        </div>
+                        <div class="tablist-inner-panel-time small">
+                          <p>Thư viện tài nguyên</p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tablist-inner-row">
+                  <div class="tablist-inner-col">
+                    <div class="tablist-inner-box">
+                      <div class="customer-inner-title">
+                        <h3>KIẾN THỨC QUẢN TRỊ</h3>
+                      </div>
+                      <div class="tablist-inner-col-item" data-aos="zoom-in">
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img4.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Công nghệ số hóa ứng dụng trí tuệ nhân tạo
+                                phát triển mạnh ở Việt Nam
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Trên thế giới, trí tuệ nhân tạo (AI) đã trở
+                                thành một thuật ngữ phổ biến trong thiết kế
+                                sản phẩm, cơ sở hạ tầng nhằm tối ưu hóa công
+                                tác quản lý, phục vụ đời sống của người cư
+                                dân.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tablist-inner-box">
+                      <div class="customer-inner-title title-darkblue">
+                        <h3>THƯ VIỆN TÀI NGUYÊN</h3>
+                      </div>
+                      <div class="tablist-inner-col-item" data-aos="zoom-in">
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img4.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Công nghệ số hóa ứng dụng trí tuệ nhân tạo
+                                phát triển mạnh ở Việt Nam
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Trên thế giới, trí tuệ nhân tạo (AI) đã trở
+                                thành một thuật ngữ phổ biến trong thiết kế
+                                sản phẩm, cơ sở hạ tầng nhằm tối ưu hóa công
+                                tác quản lý, phục vụ đời sống của người cư
+                                dân.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tablist-inner-col">
+                    <div class="customer-inner-title">
+                      <h3>ĐỌC GÌ HÔM NAY</h3>
+                    </div>
+                    <div class="tablist-inner-col-list" data-aos="zoom-in">
+                      <div class="tablist-inner-col-card">
+                        <div class="tablist-inner-col-list">
+                          <img src="./assets/img/reading-img1.png" alt="" />
+                        </div>
+                        <div class="tablist-inner-col-content">
+                          <p>
+                            Ứng dụng công nghệ trong kiểm tra công tác bảo vệ
+                            môi trường
+                          </p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-col-card">
+                        <div class="tablist-inner-col-list">
+                          <img src="./assets/img/reading-img1.png" alt="" />
+                        </div>
+                        <div class="tablist-inner-col-content">
+                          <p>
+                            Ứng dụng công nghệ trong kiểm tra công tác bảo vệ
+                            môi trường
+                          </p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-col-card">
+                        <div class="tablist-inner-col-list">
+                          <img src="./assets/img/reading-img1.png" alt="" />
+                        </div>
+                        <div class="tablist-inner-col-content">
+                          <p>
+                            Ứng dụng công nghệ trong kiểm tra công tác bảo vệ
+                            môi trường
+                          </p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-col-card">
+                        <div class="tablist-inner-col-list">
+                          <img src="./assets/img/reading-img1.png" alt="" />
+                        </div>
+                        <div class="tablist-inner-col-content">
+                          <p>
+                            Ứng dụng công nghệ trong kiểm tra công tác bảo vệ
+                            môi trường
+                          </p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-col-card">
+                        <div class="tablist-inner-col-list">
+                          <img src="./assets/img/reading-img1.png" alt="" />
+                        </div>
+                        <div class="tablist-inner-col-content">
+                          <p>
+                            Ứng dụng công nghệ trong kiểm tra công tác bảo vệ
+                            môi trường
+                          </p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-col-card">
+                        <div class="tablist-inner-col-list">
+                          <img src="./assets/img/reading-img1.png" alt="" />
+                        </div>
+                        <div class="tablist-inner-col-content">
+                          <p>
+                            Ứng dụng công nghệ trong kiểm tra công tác bảo vệ
+                            môi trường
+                          </p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end knowledge -->
+              <!-- ------------- -->
+              <!-- library -->
+              <div class="tablist-inner-tabcontent" id="library">
+                <div class="tablist-inner-panel">
+                  <div class="tablist-inner-panel-row">
+                    <div class="tablist-inner-panel-col">
+                      <div class="tablist-inner-panel-swipper">
+                        <div class="swiper">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./assets/img/blog-img1.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="swiper-button-next tablist-swiper-next"></div>
+                          <div class="swiper-button-prev tablist-swiper-prev"></div>
+                        </div>
+                      </div>
+                      <div class="tablist-inner-panel-content">
+                        <div class="history-inner-info tablist-inner-panel-info">
+                          <h2>
+                            Cloud CRM là gì và cách thức quản lý khách hàng
+                            hiệu quả
+                          </h2>
+                        </div>
+                        <div class="tablist-inner-panel-time">
+                          <p>Kiến thức quản trị</p>
+                          <p>13:20 02/03/2022</p>
+                        </div>
+                        <div class="tablist-inner-panel-text">
+                          <p>
+                            Nếu CRM được xem là nền tảng của Sales và
+                            Marketing thì Cloud CRM được đánh giá là giải pháp
+                            phù hợp cho mọi doanh nghiệp, bởi khả năng triển
+                            khai dễ dàng và nhanh chóng. Bạn đang muốn tìm
+                            hiểu về loại giải pháp Cloud CRM này, cũng như
+                            những hiệu quả mà chúng đem lại?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tablist-inner-panel-row">
+                    <div class="customer-inner-title">
+                      <h3>ĐỌC GÌ HÔM NAY</h3>
+                    </div>
+                    <div class="tablist-inner-col-list">
+                      <!-- Swiper -->
+                      <div class="swiper-container tablist-inner-col-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="tablist-inner-col-card">
+                              <div class="tablist-inner-col-list">
+                                <img src="./assets/img/reading-img1.png" alt="" />
+                              </div>
+                              <div class="tablist-inner-col-content">
+                                <p>
+                                  Ứng dụng công nghệ trong kiểm tra công tác
+                                  bảo vệ môi trường
+                                </p>
+                                <p>13:20 02/03/2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="tablist-inner-col-card">
+                              <div class="tablist-inner-col-list">
+                                <img src="./assets/img/reading-img1.png" alt="" />
+                              </div>
+                              <div class="tablist-inner-col-content">
+                                <p>
+                                  Ứng dụng công nghệ trong kiểm tra công tác
+                                  bảo vệ môi trường
+                                </p>
+                                <p>13:20 02/03/2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="tablist-inner-col-card">
+                              <div class="tablist-inner-col-list">
+                                <img src="./assets/img/reading-img1.png" alt="" />
+                              </div>
+                              <div class="tablist-inner-col-content">
+                                <p>
+                                  Ứng dụng công nghệ trong kiểm tra công tác
+                                  bảo vệ môi trường
+                                </p>
+                                <p>13:20 02/03/2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="tablist-inner-col-card">
+                              <div class="tablist-inner-col-list">
+                                <img src="./assets/img/reading-img1.png" alt="" />
+                              </div>
+                              <div class="tablist-inner-col-content">
+                                <p>
+                                  Ứng dụng công nghệ trong kiểm tra công tác
+                                  bảo vệ môi trường
+                                </p>
+                                <p>13:20 02/03/2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="tablist-inner-col-card">
+                              <div class="tablist-inner-col-list">
+                                <img src="./assets/img/reading-img1.png" alt="" />
+                              </div>
+                              <div class="tablist-inner-col-content">
+                                <p>
+                                  Ứng dụng công nghệ trong kiểm tra công tác
+                                  bảo vệ môi trường
+                                </p>
+                                <p>13:20 02/03/2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="tablist-inner-col-card">
+                              <div class="tablist-inner-col-list">
+                                <img src="./assets/img/reading-img1.png" alt="" />
+                              </div>
+                              <div class="tablist-inner-col-content">
+                                <p>
+                                  Ứng dụng công nghệ trong kiểm tra công tác
+                                  bảo vệ môi trường
+                                </p>
+                                <p>13:201 02/03/2022</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tablist-inner-row tablist-inner-library">
+                  <div class="tablist-inner-col">
+                    <div class="tablist-inner-box">
+                      <div class="customer-inner-title">
+                        <h3>KIẾN THỨC QUẢN TRỊ</h3>
+                      </div>
+                      <div class="tablist-inner-col-item" data-aos="zoom-in">
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img4.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Công nghệ số hóa ứng dụng trí tuệ nhân tạo
+                                phát triển mạnh ở Việt Nam
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Trên thế giới, trí tuệ nhân tạo (AI) đã trở
+                                thành một thuật ngữ phổ biến trong thiết kế
+                                sản phẩm, cơ sở hạ tầng nhằm tối ưu hóa công
+                                tác quản lý, phục vụ đời sống của người cư
+                                dân.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tablist-inner-body hvr-float-shadow">
+                          <div class="tablist-inner-panel-reading">
+                            <img src="./assets/img/blog-img5.png" alt="" />
+                          </div>
+                          <div class="tablist-inner-panel-content">
+                            <div class="tablist-inner-panel-info">
+                              <p>
+                                Hội thảo về giá trị của dữ liệu trong chuyển
+                                đổi số trong thời đại 4.0
+                              </p>
+                            </div>
+                            <div class="tablist-inner-panel-time small">
+                              <p></p>
+                              <p>13:20 02/03/2022</p>
+                            </div>
+                            <div class="tablist-inner-panel-text">
+                              <p>
+                                Giá trị của dữ liệu và vấn đề liên quan đến
+                                pháp lý, quá trình thu thập, xử lý thông tin
+                                sẽ được thảo luận trong Vietnam Data Summit
+                                2022.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pagination">
+      <div class="pagination">
+        <div class="container">
+          <div class="pagination-wrap">
+            <div class="pagination-box">
+              <div class="pagination-box-list">
+                <div class="pagination-box-icon-left">
+                  <a href="#" class="pagination-box-icon">
+                    <i class="ic-arrow-down"></i>
+                  </a>
+                </div>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <div class="pagination-box-icon-right">
+                  <a href="#" class="pagination-box-icon">
+                    <i class="ic-arrow-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="information">
+      <div class="information">
+        <div class="container">
+          <div class="information-wrap">
+            <div class="information-box">
+              <div class="information-inner">
+                <div class="information-inner-logo">
+                  <div class="information-inner-img">
+                    <img src="./assets/img/logo.png" alt="" />
+                  </div>
+                  <div class="information-inner-contact">
+                    <img src="./assets/img/logo-phone.png" alt="" />
+                    <a href="#">
+                      <span class="ic-contact">+84 028 3636 3725</span>
+                    </a>
+                    <img src="./assets/img/logo-mail.png" alt="" />
+                    <a href="#">
+                      <span class="ic-mail">lienhe@vuthao.com</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="information-inner-content">
+                  <div class="information-inner-col">
+                    <h3>Trung tâm</h3>
+                    <p>
+                      Tầng 2-4-6, Toà nhà MG Building, <br />
+                      Số 2-2B Lam Sơn, P. 2, Q. Tân Bình, TpHCM, VN
+                    </p>
+                    <h3>Trụ sở chính</h3>
+                    <p>
+                      Tầng 3, Phòng 3.15, Khu I, Toà nhà The Prince
+                      Residence,<br />
+                      Số 19-21 Nguyễn Văn Trỗi, P. 12, Q.Phú Nhuận, TpHCM,
+                      <br />VN
+                    </p>
+                    <h3>VP đại diện</h3>
+                    <p>
+                      Số 57, Trung Hoà, Khu đô thị Trung Yên,<br />
+                      Q. Cầu Giấy, TpHN, VN
+                    </p>
+                  </div>
+                  <div class="information-inner-col">
+                    <h3>Giới thiệu</h3>
+                    <ul class="information-inner-introduce">
+                      <a href="#">
+                        <li>Thông tin công ty</li>
+                      </a>
+                      <a href="#">
+                        <li>Cột mốc phát triển</li>
+                      </a>
+                      <a href="#">
+                        <li>Tầm nhìn & sứ mệnh</li>
+                      </a>
+                      <a href="#">
+                        <li>Cam kết chất lượng dịch vụ</li>
+                      </a>
+                      <a href="#">
+                        <li>Chính sách chất lượng</li>
+                      </a>
+                    </ul>
+                    <h3>Tin tức</h3>
+                    <ul class="information-inner-blog">
+                      <a href="#">
+                        <li>Blog</li>
+                      </a>
+                      <a href="#">
+                        <li>Tin hoạt động</li>
+                      </a>
+                    </ul>
+                  </div>
+                  <div class="information-inner-col">
+                    <h3>Sản phẩm</h3>
+                    <ul class="information-inner-product">
+                      <a href="#">
+                        <li>DPM - Digital Process Management</li>
+                      </a>
+                      <a href="#">
+                        <li>DSIGN - Digital Signature Portal</li>
+                      </a>
+                      <a href="#">
+                        <li>DCM - Digital Content Management</li>
+                      </a>
+                      <a href="#">
+                        <li>EOFFICE</li>
+                      </a>
+                      <a href="#">
+                        <li>Quản lý hợp đồng</li>
+                      </a>
+                    </ul>
+                    <h3>Tuyển dụng</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer id="footer">
+    <div class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-box">
+            <div class="footer-top">
+              <div class="footer-top-col">
+                <h2>Công Ty cổ Phần Công Nghệ Vũ Thảo</h2>
+                <p>
+                  <strong>Số ĐKKD:</strong> 0301805897 do Sở Kế Hoạch Đầu Tư
+                  TpHCM - Cấp ngày 31/08/1999
+                </p>
+                <p><strong>Người đại diện:</strong> Ông Trần Thanh Phong</p>
+              </div>
+              <div class="footer-top-col">
+                <img src="./assets/img/logo-noti.png" alt="" />
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="footer-bottom-copyright">
+                <img src="./assets/img/copyright.png" alt="" />
+                <span>Vuthao. All rights reserved</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/library/aos/aos.js"></script>
+  <script src="./js/library/jquery/jquery-min.js"></script>
+  <script src="./js/library/swipper/swipper.js"></script>
+  <script src="./js/main.js" type="module"></script>
+  <script type="text/javascript">
+    function tablistModule(evt, styleName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName(
+        "tablist-inner-tabcontent"
+      );
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tab-inner-tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(styleName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
+
+</html>
