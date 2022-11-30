@@ -32,8 +32,7 @@ a.blog.header-selected:after {
   top: 94px;
   left: 0;
   width: 100%;
-  padding-bottom: 20px;
-  border-top: 1px solid #eaeaea; }
+  padding-bottom: 20px; }
   .mega-menu-blog {
     width: 42% !important; }
   .mega-menu-item:nth-child(1) {
