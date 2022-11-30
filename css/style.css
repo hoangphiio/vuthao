@@ -99,7 +99,8 @@ a.blog.header-selected:after {
     left: 0; }
   .mega-menu-content {
     width: 100%;
-    justify-content: unset; } }
+    justify-content: unset;
+    flex-direction: column; } }
 
 #button {
   display: inline-block;
@@ -455,7 +456,7 @@ img {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1170px;
   height: 100%;
   margin: 0 auto;
   padding: 0 15px; }
@@ -626,8 +627,8 @@ a.selected {
   box-shadow: 2px 3px 10px #e5e5e5;
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
   padding: 20px 0px;
   z-index: 999;
   background-color: #fff; }
@@ -692,7 +693,8 @@ a.selected {
         box-sizing: border-box; }
         @media screen and (max-width: 1100px) {
           .header-navbar-search-form {
-            width: 100%; } }
+            width: 100%;
+            display: none; } }
       .header-navbar-search-input {
         width: 400px;
         border: 0px;

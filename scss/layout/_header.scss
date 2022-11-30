@@ -2,11 +2,12 @@
   box-shadow: 2px 3px 10px #e5e5e5;
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
   padding: 20px 0px;
   z-index: 999;
   background-color: #fff;
+
   &-box {
     @include mid-flex-btw();
     @include max(1100px) {
@@ -63,6 +64,7 @@
         box-sizing: border-box;
         @include max(1100px) {
           width: 100%;
+          display: none;
         }
       }
       &-input {
@@ -87,7 +89,7 @@
     }
     &-contact {
       padding-left: 48px;
-      @include max(1100px){
+      @include max(1100px) {
         padding-left: 0;
       }
       a {
