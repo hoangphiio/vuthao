@@ -29,6 +29,7 @@
       background-color: #fff;
       z-index: 2;
       top: 200px;
+      padding-bottom: 12px;
       a {
         &.active {
           color: $color-first;
@@ -468,30 +469,35 @@
           position: absolute;
           top: -2px;
           font-size: 22px;
+          font-family: 'iconvuthao';
         }
         .ic-code:before {
           content: "\e904";
           position: absolute;
           top: -2px;
           font-size: 22px;
+          font-family: 'iconvuthao';
         }
         .ic-rocket:before {
           content: "\e906";
           position: absolute;
           top: -2px;
           font-size: 22px;
+          font-family: 'iconvuthao';
         }
         .ic-timeline:before {
           content: "\e903";
           position: absolute;
           top: -2px;
           font-size: 22px;
+          font-family: 'iconvuthao';
         }
         .ic-bag:before {
           content: "\e905";
           position: absolute;
           top: -2px;
           font-size: 22px;
+          font-family: 'iconvuthao';
         }
         h3 {
           font-size: 14px;
@@ -507,6 +513,7 @@
         color: $color-first;
         text-transform: uppercase;
         padding-bottom: 4px;
+        font-family: 'Raleway' !important;
       }
       &-number {
         font-size: 70px;

@@ -167,6 +167,7 @@
       &:hover .mega-menu {
         visibility: visible;
         opacity: 1;
+        box-shadow: 2px 3px 10px #e5e5e5;
       }
       .mega-menu {
         @include max(1100px) {

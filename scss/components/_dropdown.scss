@@ -73,6 +73,7 @@ a.blog.header-selected:after {
     display: flex;
     justify-content: flex-end;
     width: 93%;
+    padding-top: 12px;
   }
   &-content:nth-child(2){
     width: 50%;

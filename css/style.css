@@ -70,7 +70,8 @@ a.blog.header-selected:after {
   .mega-menu-content {
     display: flex;
     justify-content: flex-end;
-    width: 93%; }
+    width: 93%;
+    padding-top: 12px; }
   .mega-menu-content:nth-child(2) {
     width: 50%; }
 
@@ -775,7 +776,8 @@ a.selected {
     position: static; }
     .header-dropdown-item:hover .mega-menu {
       visibility: visible;
-      opacity: 1; }
+      opacity: 1;
+      box-shadow: 2px 3px 10px #e5e5e5; }
     @media screen and (max-width: 1100px) {
       .header-dropdown-item .mega-menu {
         position: static;
@@ -970,7 +972,8 @@ a.selected {
     flex-direction: column-reverse; } }
 
 .content-column {
-  max-width: 550px; }
+  max-width: 550px;
+  width: 50%; }
   @media screen and (max-width: 1160px) {
     .content-column {
       width: 100%;
@@ -1559,7 +1562,8 @@ a.selected {
   position: sticky;
   background-color: #fff;
   z-index: 2;
-  top: 200px; }
+  top: 200px;
+  padding-bottom: 12px; }
   .history-inner-left a.active {
     color: #174ae6;
     font-weight: 600; }
@@ -1974,27 +1978,32 @@ a.selected {
     content: "\e902";
     position: absolute;
     top: -2px;
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'iconvuthao'; }
   .history-commit-content-text .ic-code:before {
     content: "\e904";
     position: absolute;
     top: -2px;
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'iconvuthao'; }
   .history-commit-content-text .ic-rocket:before {
     content: "\e906";
     position: absolute;
     top: -2px;
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'iconvuthao'; }
   .history-commit-content-text .ic-timeline:before {
     content: "\e903";
     position: absolute;
     top: -2px;
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'iconvuthao'; }
   .history-commit-content-text .ic-bag:before {
     content: "\e905";
     position: absolute;
     top: -2px;
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'iconvuthao'; }
   .history-commit-content-text h3 {
     font-size: 14px;
     color: #000 !important; }
@@ -2006,7 +2015,8 @@ a.selected {
   font-weight: 400;
   color: #174ae6;
   text-transform: uppercase;
-  padding-bottom: 4px; }
+  padding-bottom: 4px;
+  font-family: 'Raleway' !important; }
 
 .history-commit-content-number {
   font-size: 70px; }
